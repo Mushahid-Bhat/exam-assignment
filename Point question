@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+struct point{
+
+    int x;
+
+    int y;
+
+};
+
+int main() {
+
+    struct point a1;
+
+    struct point a2;
+
+    cout<<"enter x and y coordinates of ist point respectively"<<endl;
+
+    cin>>a1.x>>a1.y;
+
+    cout<<"enter x and y coordinates of 2nd point respectively"<<endl;
+
+    cin>>a2.x>>a2.y;
+
+    cout<<"required point is:"<<"("<<a1.x+a2.x<<","<<a1.y+a2.y<< ")"<<endl;
+
+    
+
+     
+
+    return 0;
+
+}
