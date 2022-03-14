@@ -1,0 +1,31 @@
+include <iostream>
+
+#include<math.h>
+
+using namespace std;
+
+int main() {
+
+    float p,pp,dp,i,n;
+
+    cout<<"enter principle,car price,down payment,intrest,no.of payments";
+
+    cin>>p>>pp>>dp>>i>>n;
+
+    p=pp-dp;
+
+    int power;
+
+    float pay,x;
+
+    x=1/(1+i);
+
+    power=pow(x,n);
+
+    pay=i*p/(1-(power));
+
+    cout << pay;
+
+    return 0;
+
+}
